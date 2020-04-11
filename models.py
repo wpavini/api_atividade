@@ -27,7 +27,7 @@ class Pessoas(Base):
 
 
 
-class Atvidades(Base):
+class Atividades(Base):
     __tablename__='atividades'
     id = Column(Integer, primary_key=True)
     nome = Column(String(80))
